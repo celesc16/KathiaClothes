@@ -1,22 +1,11 @@
-import img1 from './products/img/img1.jpg'
-import ProductsInit from './products/components/recommend';
+import HeroSection from "../components/layout/herosection";
+import ProductsRecommend from "../components/Product/recommendProduct";
 
 export default function Init(){
   return (
     <>
-      <ProductsInit 
-        image={img1}
-        model={'Blusa'}
-        price={'$500'}
-        
-      />    
-
-      <ProductsInit 
-        image={img1}
-        model={'Blusa'}
-        price={'$500'}
-      />    
-
+      <HeroSection />
+      <ProductsRecommend />
     </>
   )
 };
