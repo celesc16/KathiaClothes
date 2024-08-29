@@ -4,6 +4,7 @@ import NavBarComponent from './components/layout/navbar';
 import Products from './views/products';
 import Contact from './views/contact';
 import About from './views/about';
+import Footer from './components/layout/footer';
 
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 
@@ -18,6 +19,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
+      <Footer />
 
     </div>
   );

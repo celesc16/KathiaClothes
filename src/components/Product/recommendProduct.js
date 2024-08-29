@@ -85,7 +85,7 @@ export default function ProductsRecommend(){
   const recommendedProducts = Products.filter(product => product.recommended);
 
   return(
-    <div className='recommend-products'>
+    <div className='container recommend-products'>
       <h2 className='text-center p-4'>Productos Recomedado</h2>
       <div className='row'>
         {recommendedProducts.map(product =>(
