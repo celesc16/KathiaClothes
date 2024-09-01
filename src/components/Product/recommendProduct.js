@@ -92,7 +92,7 @@ export default function ProductsRecommend(){
           <div className='col-md-4' key={product.id}>
             <div className="card r-image">
               <img src={product.image}  className="card-img-top" alt={product.name} />
-              <div className="card-body">
+              <div className="card-body m-2">
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text">{product.price}</p>
                 <NavLink href="#" className="btn btn-primary">Ver productos</NavLink>
