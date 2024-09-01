@@ -35,7 +35,7 @@ export default function NavBar(){
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
             </form>
-            <NavLink className='nav-link p-2' to={'./auth'} ><i className="bi bi-person-circle"></i></NavLink>
+            <NavLink className='nav-link p-2 ' to={'./auth'} ><i className="bi bi-person-circle"></i></NavLink>
           </div>
         </div>
       </nav>
