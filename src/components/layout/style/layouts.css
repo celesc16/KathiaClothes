@@ -14,3 +14,35 @@
   height: 16rem;
   object-fit: cover;
 }
+
+
+/*Footer*/
+
+.footer-icons i {
+  padding: 0.4rem 0.5rem;
+  background: #e1e1e1;
+  color: #1d1c1c;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+
+.footer-icons i:hover {
+  background: #444242;
+  color: #fff;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.footer-list li{
+  list-style-type: none;
+}
+
+.footer-list li a{
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-list li a:hover{
+  color: #8275f1;
+}

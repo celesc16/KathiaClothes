@@ -90,7 +90,7 @@ export default function OfferProducts(){
       <div className='row'>
         {offerProducts.map(product =>(
           <div className='col-md-4' key={product.id}>
-            <div className="card r-image">
+            <div className="card r-image mt-3">
               <img src={product.image}  className="card-img-top" alt={product.name} />
               <div className="card-body m-2">
                 <h5 className="card-title">{product.name}</h5>
