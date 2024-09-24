@@ -95,7 +95,7 @@ export default function ProductsRecommend(){
               <div className="card-body m-2">
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text">{product.price}</p>
-                <NavLink href="#" className="btn btn-primary">Ver productos</NavLink>
+                <NavLink href="#" className="btn btn-primary">Agregar Al carrito</NavLink>
               </div>
             </div>
           </div>  
