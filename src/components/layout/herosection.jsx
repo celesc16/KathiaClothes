@@ -15,7 +15,7 @@ export default function HeroSection(){
       <div className="carousel-inner ">
         <div className="carousel-item active">
           <img src={hero1} className="carousel-hero d-block w-100" alt='imageneshero' />
-          <div className="carousel-caption" >
+          <div className="carousel-captions" >
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
             <NavLink role='button' className='btn btn-secondary px-4 py-2 text-uppercase' >Mas Info</NavLink>
@@ -23,7 +23,7 @@ export default function HeroSection(){
         </div>
         <div className="carousel-item">
           <img src={hero2} className="carousel-hero d-block w-100" alt='imageneshero' />
-          <div className="carousel-caption" >
+          <div className="carousel-captions" >
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
             <NavLink role='button' className='btn btn-secondary px-4 py-2 text-uppercase' >Mas Info</NavLink>
@@ -31,7 +31,7 @@ export default function HeroSection(){
         </div>
         <div className="carousel-item">
           <img src={hero3} className="carousel-hero d-block w-100" alt='imageneshero' />
-          <div className="carousel-caption" >
+          <div className="carousel-captions" >
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
             <NavLink role='button' className='btn btn-secondary px-4 py-2 text-uppercase' >Mas Info</NavLink>

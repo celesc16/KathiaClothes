@@ -28,9 +28,6 @@ export default function NavBar(){
                   <li><NavLink className="dropdown-item" to={'/t-shirts'}>Remeras</NavLink></li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link text-white" to={'/about'}  aria-disabled="true">Como Comprar</NavLink>
-              </li>
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
