@@ -1,0 +1,6 @@
+# Ignorar node_modules en el backend
+node_modules/
+
+# Ignorar otros archivos y carpetas no deseados
+/.pnp
+.pnp.js
