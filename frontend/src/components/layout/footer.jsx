@@ -9,9 +9,9 @@ export default function Footer(){
             <div className="col-md-6 col-lg-5 col-12 ft-1">
               <NavLink className="navbar-brand text-white fs-2" to={'./'} >Kathia Clothes</NavLink>
               <div className="footer-icons m-4 ms-0">
-                <a className="" href="/"><i class="bi bi-instagram"></i></a>
-                <a className="" href="/"><i class="bi bi-facebook"></i></a>
-                <a className="" href="/"><i class="bi bi-telephone"></i></a>
+                <a className="" href="/"><i className="bi bi-instagram"></i></a>
+                <a className="" href="/"><i className="bi bi-facebook"></i></a>
+                <a className="" href="/"><i className="bi bi-telephone"></i></a>
               </div>
             </div>
 

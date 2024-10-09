@@ -1,16 +1,14 @@
-const express = require('express');
-const cors = require('cors');
+import express from 'express';
+import cors from 'cors';
+import authRoutes from './routes/authRoutes.js'; // Corrige la extensión
 
 const app = express() ; 
-//middleware
+
 app.use(cors())
 app.use(express.json()) 
+app.use('/api/auth', authRoutes);
 
-//Configuracion
-
-app.set('port' , process.env.PORT || 5000 )
-
-module.exports = app;
+export default app;
 
 
 

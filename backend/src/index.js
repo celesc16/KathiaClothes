@@ -1,13 +1,21 @@
+import app from './app.js'; // Importa la aplicación
+import db from './config/db.js';
+import dotenv from 'dotenv';
 
-const app = require('./app')
-require('./database')
-//Logica para ejecutar el server
+dotenv.config();
 
-async function main(){
-    await app.listen(app.get('port'))
-    console.log('el servidor se esta ejecutando en el puerto : ' , app.get('port'));
+const PORT = process.env.PORT || 5000;
 
+(async () => {
+  try {
+    await db.authenticate();
+    console.log('Conexión a la base de datos exitosa.');
+    await db.sync(); // Sincronizar el modelo con la base de datos
 
-}
-
-main();
+    app.listen(PORT, () => {
+      console.log(`Servidor en ejecución en http://localhost:${PORT}`);
+    });
+  } catch (error) {
+    console.error('Error al conectar a la base de datos:', error);
+  }
+})();
